@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bkg_img2"
+    tools:context=".Homepage">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="0dp"
+        app:cardBackgroundColor="#30FFFFFF">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:padding="24dp"
+        android:background="@drawable/bkg_border">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="166dp"
+            android:layout_height="151dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logo" />
+
+        <Button
+        android:id="@+id/button_productAdd"
+        android:layout_width="280dp"
+        android:layout_height="70dp"
+        android:text="Add a Product"
+        android:textAllCaps="true"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_below="@id/logo"
+        android:textColor="#ffff"
+        android:drawableLeft="@drawable/baseline_add_24"
+        android:backgroundTint="#4CAF50"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button_productUpdate"
+        android:layout_width="280dp"
+        android:layout_height="70dp"
+        android:text="Update a Product"
+        android:textAllCaps="true"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_below="@id/button_productAdd"
+        android:drawableLeft="@drawable/baseline_update_24"
+        android:textColor="#ffff"
+        android:backgroundTint="#FF9800"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button_productDelete"
+        android:layout_width="280dp"
+        android:layout_height="70dp"
+        android:text="Delete a Product"
+        android:textAllCaps="true"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_below="@id/button_productUpdate"
+        android:textColor="#ffff"
+        android:drawableLeft="@drawable/baseline_delete_24"
+        android:backgroundTint="#EC2323"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button_productView"
+        android:layout_width="280dp"
+        android:layout_height="70dp"
+        android:text="Preview "
+        android:textAllCaps="true"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_below="@id/button_productDelete"
+        android:textColor="#ffff"
+        android:drawableLeft="@drawable/baseline_preview_24"
+        android:backgroundTint="#2196F3"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button_logout"
+        android:layout_width="280dp"
+        android:layout_height="70dp"
+        android:text="Logout"
+        android:textAllCaps="true"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_below="@id/button_productView"
+        android:textColor="#ffff"
+        android:drawableLeft="@drawable/baseline_logout_24"
+        android:backgroundTint="#B53F60"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true" />
+
+    </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

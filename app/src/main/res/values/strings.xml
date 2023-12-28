@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">CRUD_SQLite_Db</string>
+
+    <string-array name="productCategory">
+        <item>Choose the Category</item>
+        <item>Fruits</item>
+        <item>Vegetables</item>
+        <item>Herbs</item>
+        <item>Dairy Products</item>
+        <item>Bakery Products</item>
+        <item>Meat Products</item>
+        <item>Pantry Staples</item>
+        <item>Canned Goods</item>
+        <item>Frozen Foods</item>
+        <item>Snacks</item>
+        <item>Beverages</item>
+        <item>Sauces</item>
+        <item>Spices</item>
+        <item>Health and Beauty</item>
+    </string-array>
+
+    <string-array name="productQuantity">
+        <item>Choose the Quantity</item>
+        <item>1 KG</item>
+        <item>2 KG</item>
+        <item>3 KG</item>
+        <item>4 KG</item>
+        <item>5 KG</item>
+        <item>6 KG</item>
+        <item>7 KG</item>
+        <item>8 KG</item>
+        <item>9 KG</item>
+        <item>10+ KG</item>
+    </string-array>
+
+
+</resources>
